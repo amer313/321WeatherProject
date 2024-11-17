@@ -262,11 +262,11 @@ function App() {
             {data.sys && (
               <div className="sun-times">
                 <div className="sunrise">
-                  <span role="img" aria-label="sunrise">🌅</span> {formatTime(data.sys.sunrise)}
+                  <span role="img" aria-label="sunrise">🌅</span> <p className = "bold"> {formatTime(data.sys.sunrise)}</p>
                   <p>Sunrise</p>
                 </div>
                 <div className="sunset">
-                  <span role="img" aria-label="sunset">🌇</span> {formatTime(data.sys.sunset)}
+                  <span role="img" aria-label="sunset">🌇</span> <p className = "bold"> {formatTime(data.sys.sunset)}</p>
                   <p>Sunset</p>
                 </div>
               </div>
