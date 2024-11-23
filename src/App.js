@@ -205,7 +205,7 @@ function App() {
       }}
     >
       {isLoading ? (
-        <div className="loading-spinner"></div>
+        <div className="loading-spinner" data-testid="loading-spinner"></div>
       ) : (
         <>
           <Header
